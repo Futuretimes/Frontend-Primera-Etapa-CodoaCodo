@@ -1,8 +1,12 @@
 # Descripcion: Proyecto Final Frontend - CODO A CODO 
 Integrantes: 1
+
 ADMIN: ROJAS NAHUEL
+
 COMISION: 24182
+
 Curso: Primera parte Frontend - Full Stack Python
+
 AÑO: 2024
 
 # Resoluciones permitidas:
@@ -55,6 +59,9 @@ elemento de Bootstrap.
 
 # Autocritica del proyecto: 
 1 - Con mas tiempo y paciencia se podria comprimir la cantidad de lineas en css
+
 2 - El codigo podria estar mas ordenado y comentado tanto: HTML como CSS
+
 3 - Se podria reducir el uso de media queries organizando mejor las paginas desde el principio
+
 4 - Se podria introducir nuevas animaciones, transformaciones, imagenes e informacion
