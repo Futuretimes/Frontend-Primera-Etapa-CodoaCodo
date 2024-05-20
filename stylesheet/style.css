@@ -193,7 +193,7 @@ footer {
 /* fin footer */
 
 /* playback page */
-.playbackpage {
+.black-page {
     background-color: black;
 }
 .playbackpage div p{
@@ -201,13 +201,14 @@ footer {
     font-size: 30px;
 }
 .videoBox {
-    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .introVideo {
     max-width: 100%;
+    border-radius: 15px;
 }
 /* fin playback page */
 
@@ -545,5 +546,39 @@ body::-webkit-scrollbar-thumb {
         font-size: 15px;
         font-weight: bold;
         letter-spacing: 1.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .form-register {
+        width: 85%;
+    }
+    .title-form-register {
+        width: 100%;
+    }
+    footer {
+        font-size: 13px;
+    }
+    .about-title-box h2 {
+        font-size: 30px;
+    }
+    .about-info h3 {
+        text-align: center;
+    }
+    .card-child {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px) { 
+    .busqueda h2 {
+        font-size: 15px;
+    }
+    .busqueda input {
+        font-size: 20px;
+    }
+    footer {
+        font-size: 11px;
+    }
+    .contenedor-titulo-controles h3 {
+        font-size: 20px;
     }
 }
