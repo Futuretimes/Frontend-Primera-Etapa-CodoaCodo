@@ -548,7 +548,7 @@ body::-webkit-scrollbar-thumb {
         letter-spacing: 1.5px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
     .form-register {
         width: 85%;
     }
